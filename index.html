@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Početna stranica</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+
+        <a href="index.html" class="logo"><img src="candelina_logo.png" alt="Candelina"></a>
+        
+        <nav class="navbar">
+            <a href="index.html">Početna stranica</a>
+                <a href="proizvodi.html">Proizvodi</a>
+                <a href="o_nama.html">O nama</a>
+                <a href="index.html#kontakt">Kontakt</a>
+        </nav>
+        <div class="icons">
+                <a href="#" class="fas fa-shopping-cart" id="kosarica"><div class="totalQuantity"><span>0</span></div></a>
+            <a href="https://www.facebook.com/profile.php?id=61556940342344" target="_blank" class="fa-brands fa-facebook"></a>
+            <a target="_blank" href="https://www.instagram.com/candelina.hr/" class="fa-brands fa-instagram"></a>
+        </div>
+    </header>
+<br><br><br><br>
+
+    <div class="cart" id="cart">
+        <h2>Košarica</h2>
+        <div class="listCart" id="add_cart_item">  
+        </div>
+
+        <div class="kosarica_subtotal">
+            <p>Ukupna cijena (0 proizvoda): 0.00€
+            </p>
+        </div>
+
+        <div class="buttons">
+            <div class="close" id="zatvori">Zatvori</div>
+            <div class="checkout">
+                <a href="checkout.html">Nastavi na plaćanje</a>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="home" id="home">
+        <div class="content">
+            <br><br><br><br>
+            <h3>Ljubav u svakoj svijeći</h3>
+            <span>Svijeće od sojinog voska</span>
+            <p>Odaberite Candelina svijeće kako biste unijeli više od samo svjetlosti u svoj dom. Naše svijeće pružaju
+                udobnost, toplinu i pažnju prema okolišu. Kreirajte posebnu atmosferu uz naše ekološki osviještene
+                proizvode.
+            </p>
+            <a href="" class="btn">Istraži našu ponudu</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading"><span>O </span>nama</h1>
+        <div class="row">
+            <div class="video-container">
+                <video src="candelina_zoomed.mov" loop autoplay muted></video>
+                <h3>Ručno rađene svijeće od sojinog voska</h3>
+            </div>
+            <div class="content">
+                <h3>Zašto odabrati nas?</h3>
+                <p>Candelina nudi ručno izrađene svijeće od prirodnih sastojaka poput sojinog voska. Svaka svijeća je
+                    pažljivo izrađena s ljubavlju prema detaljima, pružajući visoku kvalitetu i jedinstvenost. Naše
+                    svijeće dolaze u različitim elegantnim oblicima i veličinama, idealnim za dekoriranje bilo kojeg
+                    prostora i događaja.</p>
+                <a href="" class="btn">Istraži našu ponudu</a>
+            </div>
+        </div>
+    </section>
+    <section class="icons-container">
+        <div class="icons">
+            <img src="dostava_icon.png" alt="delivery truck icon">
+            <div class="info">
+                <h3>Besplatna dostava</h3>
+                <span>na sve nadudžbe iznad 100€</span>
+            </div>
+        </div>
+        <div class="icons">
+            <img src="vrijeme_icon.png" alt="hourglass icon">
+            <div class="info">
+                <h3>Rok dostave</h3>
+                <span>Rok dostave je 7-10 dana. <br> U slučaju hitnosti kontaktirajte nas na mail.</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+      <h1 class="heading">Najnoviji <span>proizvodi</span></h1>
+      <div class="box-container" id="itemContainer">
+<!--
+         <div class="box">
+            <span class="discount">-10%</span>
+            <div class="image">
+                <img src="makaron.JPG" alt="Makaron">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="" class="cart-btn" id="add1">Dodaj u košaricu</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3 id="ime_proizvoda">lorem ipsum</h3>
+                <div class="price">7.99€ <span>11.99€</span></div>
+            </div>
+        </div> -->
+        </div>
+
+
+
+      </div>  
+    </section>
+<!--
+     <section class="proizvodi" id="proizvodi">
+        <h1 class="heading"><span>Linije </span>proizvoda</h1>
+        <div class="row">
+            <div class="content" id="left">
+                <h3>Mirisne svijeće</h3>
+                <p>Naša kolekcija mirisnih svijeća očarava osjetila bogatstvom raznovrsnih mirisa - cvjetnih, voćnih,
+                    šumskih i egzotičnih. Stručno složeni mirisi pozivaju na unutarnje putovanje kroz svijet mirisa.
+                    Svaka svijeća kombinira estetiku i funkcionalnost, stvarajući atmosferu opuštanja, inspiracije i
+                    povezanosti s vašim unutarnjim mirom.</p>
+                <a href="" class="btn">Istraži našu ponudu</a>
+            </div>
+            <div class="images-container" id="right">
+                <img src="mirisne_svijece.png" alt="mirisna svijeća">
+            </div>
+        </div>
+        <div class="row">
+            <div class="content" id="right">
+                <h3>Zahvalnice</h3>
+                <p>Naše zahvalnice nisu samo svijeće; one predstavljaju način izražavanja zahvalnosti i ljubavi. Svaka
+                    zahvalnica je ručno izrađena s pažnjom i posvećenošću kvaliteti. Od elegantnog dizajna do
+                    personaliziranih detalja, naše zahvalnice prenose više od riječi. Candelina zahvalnice postaju
+                    simbol
+                    zahvalnosti i ljubavi. Kada ih darujete, dijelite svjetlost i osjećaje koji nadilaze granice riječi.
+                </p>
+                <a href="" class="btn">Istraži našu ponudu</a>
+            </div>
+            <div class="images-container" id="left">
+                <img src="zahvalnice.jpg" alt="zahvalnica">
+            </div>
+        </div>
+        <div class="row">
+            <div class="content" id="left">
+                <h3>Svijeće sa skrivenom porukom</h3>
+                <p>Naša kolekcija svijeća sa skrivenom personaliziranom porukom izrađena je ručno s pažnjom i ljubavlju.
+                    Svaka poruka, svaki detalj, odražava vaš osobni pečat i važnost trenutka koji dijelite s drugima.
+                    Bilo
+                    da je riječ o rođendanskom iznenađenju, proslavi ljubavi ili zahvalnosti, naše svijeće su tu da
+                    obasjaju
+                    vaše posebne trenutke.</p>
+                <a href="" class="btn">Istraži našu ponudu</a>
+            </div>
+            <div class="images-container" id="right">
+                <img src="skrivena_poruka.png" alt="zahvalnica">
+            </div>
+        </div>
+        <div class="row">
+            <div class="content" id="right">
+                <h3>Svijeće u obliku kolača</h3>
+                <p>U svijetu svijeća, Candelina svijeće u obliku kolača su poput ukusnih delicija koje donose radost i
+                    toplinu u Vaš dom. Inspirirane raznolikošću kolača i slastica, naše svijeće spajaju estetiku i
+                    funkcionalnost kako bi stvorile jedinstvene i slatke trenutke.</p>
+                <a href="" class="btn">Istraži našu ponudu</a>
+            </div>
+            <div class="images-container" id="left">
+                <img src="kolac.jpg" alt="zahvalnica">
+            </div>
+        </div>
+        </div>
+    </section> -->
+    <a name="kontakt"></a>
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>Kontaktiraj</span> nas
+        </h1>
+        <div class="row">
+            <form action="">
+                <input type="text" placeholder="Ime i prezime" class="box">
+                <input type="e-mail" placeholder="E-mail adresa" class="box">
+                <input type="number" placeholder="Broj mobitela" class="box">
+                <textarea name="" id="" class="box" placeholder="Poruka" cols="30" rows="10"></textarea>
+                <input type="submit" value="Pošalji upit" class="btn">
+            </form>
+            <div class="image">
+                <img src="contact_us.PNG" alt="kontaktiraj nas">
+            </div>
+        </div>
+
+    </section>
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Dijelovi stranice</h3>
+                <a href="index.html">Početna stranica</a>
+                <a href="proizvodi.html">Proizvodi</a>
+                <a href="o_nama.html">O nama</a>
+                <a href="index.html#kontakt">Kontakt</a>
+            </div>
+            <div class="box">
+                <h3>Dodatne informacije</h3>
+                <a href="impresum.html">Impresum</a>
+                <a href="uvjeti_koristenja.html">Uvjeti korištenja</a>
+            </div>
+            
+            <div class="box">
+                <h3>Kontakt informacije</h3>
+                <a href="#">099 375 4976</a>
+                <a href="mailto:info@candelina.hr">info@candelina.hr</a>
+                <a href="https://maps.app.goo.gl/8cSJwvyh7cjsWHgK9" target="_blank">Dunjkovec, Nikole Tesle 45</a>
+            </div>
+        </div>
+
+        <div class="credit">
+            Vlasništvo <span>Candelina D.O.O. </span>
+        </div>
+
+    </section>
+    <script src="products.js"></script>
+    <script src="kosarica_otvori_zatvori.js"></script>
+    <!-- <script src="kosarica_add_remove_items.js"></script> -->
+    <script src="kosarica_add_items.js"></script>
+</body>
+
+</html>
